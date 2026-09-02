@@ -1,0 +1,5 @@
+interface:
+  display_name: "Release Readiness Audit"
+  short_description: "Measure release coordination cost and risk"
+  brand_color: "#D8FF59"
+  default_prompt: "Use $release-readiness-audit to estimate our monthly release-coordination cost and identify the first handoff to fix."

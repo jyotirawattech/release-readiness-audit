@@ -1,0 +1,18 @@
+{
+  "answers": [2, 3, 3, 2, 2, 2, 2, 3],
+  "exact": {
+    "occurrences_per_month": 8,
+    "person_minutes_per_occurrence": 75
+  },
+  "fit": {
+    "workflow_count": 1,
+    "source_integrations": ["github", "linear"],
+    "output_destinations": ["slack"],
+    "named_owner": true,
+    "standard_apis": true,
+    "security_ready_before_start": true,
+    "requires_production_access": false,
+    "requires_platform_migration": false,
+    "can_narrow_to_three_sources": false
+  }
+}

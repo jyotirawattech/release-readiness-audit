@@ -1,0 +1,33 @@
+name: Workflow feedback
+description: Share an ambiguity, false positive, missing boundary, or successful aggregate run.
+title: "[feedback] "
+labels: [feedback]
+body:
+  - type: markdown
+    attributes:
+      value: Use aggregate or synthetic facts only. Do not paste private company information.
+  - type: dropdown
+    id: feedback_type
+    attributes:
+      label: Feedback type
+      options:
+        - Ambiguous question
+        - False-positive recommendation
+        - Missing boundary
+        - Installation problem
+        - Successful run
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Aggregate context
+      description: Team-size band, tool categories, selected option indexes, and the non-sensitive outcome are enough.
+    validations:
+      required: true
+  - type: textarea
+    id: improvement
+    attributes:
+      label: What would make the audit more useful or safer?
+    validations:
+      required: true

@@ -1,0 +1,34 @@
+name: Calculator defect
+description: Report a result that differs from the published audit contract.
+title: "[calculator] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include credentials, logs, source code, customer data, employee names, private messages, or incident-identifying details.
+  - type: input
+    id: version
+    attributes:
+      label: Audit version
+      placeholder: 0.1.0
+    validations:
+      required: true
+  - type: textarea
+    id: aggregate_input
+    attributes:
+      label: Synthetic or aggregate input
+      description: Provide the eight option indexes and any non-sensitive exact or fit values.
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: Observed result
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result and contract rule
+    validations:
+      required: true

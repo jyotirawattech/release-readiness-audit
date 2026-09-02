@@ -1,0 +1,23 @@
+{
+  "name": "release-readiness-audit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A read-only release coordination cost diagnostic for small B2B SaaS engineering teams.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "audit:example": "node scripts/calculate.mjs --input examples/qualified.json --format markdown"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyotirawattech/release-readiness-audit.git"
+  },
+  "homepage": "https://github.com/jyotirawattech/release-readiness-audit#readme",
+  "bugs": {
+    "url": "https://github.com/jyotirawattech/release-readiness-audit/issues"
+  },
+  "license": "MIT"
+}

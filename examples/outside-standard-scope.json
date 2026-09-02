@@ -1,0 +1,14 @@
+{
+  "answers": [3, 3, 3, 3, 3, 3, 3, 3],
+  "fit": {
+    "workflow_count": 5,
+    "source_integrations": ["github", "circleci", "linear", "slack", "notion", "sheets", "pagerduty", "custom-api"],
+    "output_destinations": ["slack", "linear", "email"],
+    "named_owner": false,
+    "standard_apis": false,
+    "security_ready_before_start": false,
+    "requires_production_access": true,
+    "requires_platform_migration": true,
+    "can_narrow_to_three_sources": false
+  }
+}
