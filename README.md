@@ -70,7 +70,7 @@ This is a screening diagnostic, not a benchmark, ROI promise, compliance opinion
 
 Jyoti Rawat publishes and maintains this free audit. Only an operational candidate that does not conflict with the standard scope may see an optional €4,800 fixed-scope implementation offer, delivered in 14 days after scope, access, and security readiness are signed off. The implementation covers one workflow, up to three source integrations, one output destination, acceptance testing, failure alert, manual fallback, runbook, and handover. A source integration means one distinct API and permission boundary; an output-only destination is counted separately.
 
-If your completed result includes an `implementation_route`, use its [technical fit check](https://www.linkedin.com/in/jyotirawat-tech/). If it does not, follow the free next steps instead.
+If your completed result includes an `implementation_route`, use its [technical fit check](https://www.linkedin.com/in/jyotirawattech/). If it does not, follow the free next steps instead.
 
 ## Security and privacy
 

@@ -225,7 +225,7 @@ export function calculateAudit(rawInput) {
         offer: 'One release workflow working in 14 days after access and scope sign-off',
         price: { amount: 4800, currency: 'EUR' },
         scope: 'One workflow, up to three source integrations, one output destination, acceptance test, failure alert, manual fallback, runbook, and handover.',
-        contact: 'https://www.linkedin.com/in/jyotirawat-tech/',
+        contact: 'https://www.linkedin.com/in/jyotirawattech/',
         disclosure: 'This optional paid implementation is offered by Jyoti Rawat, the publisher of this free audit.',
       }
     : null;
